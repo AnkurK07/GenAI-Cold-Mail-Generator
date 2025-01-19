@@ -22,3 +22,13 @@ By leveraging the Cold Mail Generator, John can streamline Cyberdyne's recruitme
 ## Architecture Diagram
 ![image](https://github.com/user-attachments/assets/75570621-e862-4bad-b32a-4fe2dc4c2e85)
 
+# Project Structure
+
+- **`Chains/`**: Contains modules for constructing and managing processing chains.
+- **`Experiments/`**: Includes Jupyter Notebooks for testing and experimentation.
+- **`Resources/`**: Stores portfolio data for personalized emails.
+- **`load_portfolio/`**: Handles portfolio data loading and preprocessing.
+- **`utils/`**: Provides utility functions for the application.
+- **`vectorstore/`**: Stores vector database files for portfolio retrieval.
+- **`app.py`**: Main Streamlit app to run the tool.
+- **`requirements.txt`**: Lists dependencies for the project.
